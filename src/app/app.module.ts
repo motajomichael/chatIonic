@@ -104,16 +104,23 @@ export function createTranslateLoader(http: HttpClient) {
     }),
     LinkyModule,
     IonicModule.forRoot(MyApp,{
-      // firebaseConfig : {
+       firebaseConfig : {
       //   apiKey: 'AIzaSyDWMsqHBKmWVT7mWiSqBfRpS5U8YwTl7H0',
       //   authDomain: 'chat-v2-dev.firebaseapp.com',
       //   databaseURL: 'https://chat-v2-dev.firebaseio.com',
       //   projectId: 'chat-v2-dev',
       //   storageBucket: 'chat-v2-dev.appspot.com',
       //   messagingSenderId: '77360455507'
-      // },
+
+      apiKey: "AIzaSyAhQxo5K6eHfs6TZmLwfGQub3Ye9fmjtbo",
+      authDomain: "chat21cloud.firebaseapp.com",
+      databaseURL: "https://chat21cloud.firebaseio.com",
+      projectId: "chat21cloud",
+      storageBucket: "chat21cloud.appspot.com",
+      messagingSenderId: "714297163771",
+      },
       appConfig: {
-        tenant:"tilechat"
+        tenant:"motajomchat21Ionic"
       }
     }),
     IonicStorageModule.forRoot({
