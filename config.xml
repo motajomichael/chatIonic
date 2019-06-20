@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.listautenti875753" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.geekasoft.chat" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Chat21 Ionic chat </name>
-    <description>Chat21 Ionic3 chat for browser and mobile (ios and android).</description>
-    <author email="info@frontiere21.it" href="http://www.frontiere21.it/">Frontiere21 SRL</author>
+    <description>Chat app for browser and mobile (ios and android).</description>
+    <author email="motajom@geekasoft.com" href="https://www.motajom.geekasoft.com/">Motajo Michael</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-navigation href="http://ionic.local/*" />
@@ -15,7 +15,7 @@
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-minSdkVersion" value="19" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashShowOnlyFirstTime" value="true" />
@@ -88,9 +88,6 @@
         <splash height="2732" src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" />
     </platform>
     <allow-navigation href="http://192.168.1.8:8100" />
-    <engine name="android" spec="^8.0.0" />
-    <engine name="browser" spec="^6.0.0" />
-    <engine name="osx" spec="4.0.2" />
     <plugin name="cordova-plugin-console" spec="^1.1.0" />
     <plugin name="cordova-plugin-device" spec="^1.1.7" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.1.0" />
@@ -102,4 +99,7 @@
         <variable name="SENDER_ID" value="1096415488178" />
     </plugin>
     <plugin name="uk.co.workingedge.cordova.plugin.sqliteporter" spec="^1.1.0" />
+    <engine name="android" spec="8.0.0" />
+    <engine name="browser" spec="6.0.0" />
+    <engine name="osx" spec="4.0.2" />
 </widget>

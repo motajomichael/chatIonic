@@ -16,11 +16,7 @@ With Chat21-ionic you can:
 * Contacts list view with fulltext search for fullname field
 
 # Live Demo #
-Visit https://web.chat21.org/ to see a live demo of chat21-ionic.
-
-<img src="https://user-images.githubusercontent.com/9556761/57692753-df24d780-7647-11e9-9505-82ee5288637c.png" alt="A screenshot of chat21-ionic demo" style="max-width:100%;">
-
-<img src="https://user-images.githubusercontent.com/9556761/57692765-e3e98b80-7647-11e9-8afe-b21e6085d7ca.png" alt="A screenshot of chat21-ionic demo" style="max-width:100%;">
+Visit https://web.chat21.org/ to see a live demo of chatIonic.
 
 # Documentation #
 In progress
@@ -33,8 +29,8 @@ In progress
 * "Chat21 Firebase cloud functions" installed. Instructions:`https://github.com/chat21/chat21-cloud-functions`
 
 # Installation #
-* Clone this repository. Run: `git clone https://github.com/frontiere21/chat21-ionic.git` in the folder in which you'd like to contain the project.
-* Next you will need to get all your node_modules back into your application. All these modules are based on your package.json file. In the project folder “chat21-ionic” run: `npm install`
+* Clone this repository. Run: `git clone https://github.com/Motajom/chatIonic.git` in the folder in which you'd like to contain the project.
+* Next you will need to get all your node_modules back into your application. All these modules are based on your package.json file. In the project folder “chatIonic” run: `npm install`
 
 # Firebase Configuration #
 * Create account Firebase
@@ -73,7 +69,7 @@ https://firebase.google.com/docs/auth/
     * open `/src/firebase-messaging-sw.js` and replace messagingSenderId: "..." with < your messagingSenderId >
     More info here :  https://angularfirebase.com/lessons/send-push-notifications-in-angular-with-firebase-cloud-messaging/
 * Update manifest.json: 
-    * open `/src/manifest.json` and replace "name": "chat21-ionic" and "short_name": "chat21-ionic" with the name of your project (optional)
+    * open `/src/manifest.json` and replace "name": “chatIonic” and "short_name": “chatIonic” with the name of your project (optional)
 
 ## Run App on Browser ##
 * Now you will need to serve the app. Run: `ionic serve` in the terminal. (Update the plugins if required)
